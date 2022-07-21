@@ -1,0 +1,46 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background: rgb(255, 95, 30);
+  background: linear-gradient(58deg, rgba(255, 95, 30, 1) 41%, rgba(255, 220, 32, 1) 61%);
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(255, 220, 32, 0.2);
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background: rgb(255, 95, 30);
+  border: 2px solid rgba(255, 220, 32, 1);
+  color: #fff;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+#text {
+  color: #fff;
+}
