@@ -1,5 +1,5 @@
 /*Google Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
 * {
   box-sizing: border-box;
@@ -10,10 +10,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   overflow: hidden;
   margin: 0;
   background-color: #222;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -35,4 +36,53 @@ body {
 
 .square:hover {
   transition-duration: 0s;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+  transition: 0.2s ease;
+}
+
+#color1 {
+  background: linear-gradient(to right, #ff595e,
+      #ffca3a,
+      #8ac926,
+      #1982c4,
+      #6a4c93);
+  color: #fff;
+  font-weight: 400;
+}
+
+#color2 {
+  background: linear-gradient(to right, #ffbe0b,
+      #fb5607,
+      #ff006e,
+      #8338ec,
+      #3a86ff);
+  color: #fff;
+  font-weight: 400;
+}
+
+#color3 {
+  background: linear-gradient(to right, #af3800,
+      #fe621d,
+      #fd5200,
+      #00cfc1,
+      #00ffe7);
+  color: #fff;
+  font-weight: 400;
 }

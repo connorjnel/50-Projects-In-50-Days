@@ -1,6 +1,28 @@
 const container = document.getElementById("container");
-const colors = ["#ff595e", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93"];
+
+const colors1 = ["#ff595e", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93"];
+const colors2 = ["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"];
+const colors3 = ["#af3800", "#fe621d", "#fd5200", "#00cfc1", "#00ffe7"];
+
+const btnColor1 = document.getElementById("color1");
+const btnColor2 = document.getElementById("color2");
+const btnColor3 = document.getElementById("color3");
+
+let colors = ["#ff595e", "#ffca3a", "#8ac926", "#1982c4", "#6a4c93"];
+
 const SQUARES = 1950;
+
+btnColor1.addEventListener("click", () => {
+	colors = colors1;
+});
+
+btnColor2.addEventListener("click", () => {
+	colors = colors2;
+});
+
+btnColor3.addEventListener("click", () => {
+	colors = colors3;
+});
 
 for (let i = 0; i < SQUARES; i++) {
 	const square = document.createElement("div");
@@ -23,6 +45,6 @@ function removeColor(element) {
 	element.style.boxShadow = "0 0 2px black";
 }
 
-function getRandomColor() {
+function getRandomColor(color) {
 	return colors[Math.floor(Math.random() * colors.length)];
 }
