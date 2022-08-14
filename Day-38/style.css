@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: steelblue;
+  background: rgb(251, 215, 67);
+  background: linear-gradient(76deg, rgba(251, 215, 67, 1) 41%, rgba(255, 31, 31, 1) 61%);
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
@@ -71,5 +72,5 @@ nav ul li p {
 
 nav ul li:hover,
 nav ul li.active {
-  color: steelblue;
+  color: #ff1f1f;
 }
