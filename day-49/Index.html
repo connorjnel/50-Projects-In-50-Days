@@ -8,11 +8,18 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
     referrerpolicy="no-referrer" />
-  <title>Boilerplate</title>
+  <title>Todo App</title>
 </head>
 
 <body>
-  <h1>Boilerplate</h1>
+
+  <h1>todos</h1>
+  <form id="form">
+    <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+    <ul class="todos" id="todos">
+    </ul>
+  </form>
+  <small>Left click to toggle completed. <br> Right click to delete todo</small>
 
   <script src="script.js"></script>
 </body>
