@@ -12,6 +12,34 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	overflow: hidden;
 	margin: 0;
+	background: rgb(251, 215, 67);
+	background: linear-gradient(76deg, rgba(251, 215, 67, 1) 41%, rgba(255, 31, 31, 1) 61%);
+}
+
+.title {
+	margin: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1000px;
+}
+
+.container img {
+	object-fit: cover;
+	margin: 6px;
+	height: 300px;
+	width: 300px;
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.container img:hover {
+	transform: scale(0.98);
 }
