@@ -1,5 +1,3 @@
-# 50 Projects In 50 Days
-
 Projects course by Brad Traversy on Udemy, practice basic CSS, HTML, JS
 
 - [Expanding Cards](https://connorjnel.github.io/50-projects-in-50-days/day-01/Index.html)
