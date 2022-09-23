@@ -1,5 +1,7 @@
 Projects course by Brad Traversy on Udemy, practice basic CSS, HTML, JS
 
+[Repository Link](https://github.com/connorjnel/50-projects-in-50-days)
+
 - [Expanding Cards](https://connorjnel.github.io/50-projects-in-50-days/day-01/Index.html)
 - [Progress Steps](https://connorjnel.github.io/50-projects-in-50-days/day-02/Index.html)
 - [Rotating Navigation](https://connorjnel.github.io/50-projects-in-50-days/day-03/Index.html)
