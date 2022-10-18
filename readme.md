@@ -17,7 +17,7 @@ Projects course by Brad Traversy on Udemy, practice basic CSS, HTML, JS
 - [Random Choice Picker](https://connorjnel.github.io/50-projects-in-50-days/day-13/Index.html)
 - [Animated Navigation](https://connorjnel.github.io/50-projects-in-50-days/day-14/Index.html)
 - [Incrementing Counter](https://connorjnel.github.io/50-projects-in-50-days/day-15/Index.html)
-- [16 - Drink Water](https://connorjnel.github.io/50-projects-in-50-days/day-16/Index.html)
+- [Drink Water](https://connorjnel.github.io/50-projects-in-50-days/day-16/Index.html)
 - [Movie App](https://connorjnel.github.io/50-projects-in-50-days/day-17/Index.html)
 - [Background Slider](https://connorjnel.github.io/50-projects-in-50-days/day-18/Index.html)
 - [Theme Clock](https://connorjnel.github.io/50-projects-in-50-days/day-19/Index.html)
